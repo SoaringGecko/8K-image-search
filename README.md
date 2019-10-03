@@ -11,6 +11,3 @@ I would like to make a page where you can specify a height/width and then make a
 
 # Things I need help with
 Making a page where you can specify a height/width and then then it will search by it
-
-# The date
-<?php echo "Today is " . date("Y/m/d") . "<br>". "It's a " . date("l"); ?>
