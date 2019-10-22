@@ -10,4 +10,4 @@ I originally wanted to make this so I (and others) could easily look for 4K, 8K,
 I would like to make a page where you can specify a height/width and then make a search with it... you know instead of using preset sizes... but I don't know how to do that. If you would like to help, it would be much appreciated.
 
 # Things I need help with
-Making a page where you can specify a height/width and then then it will search by it
+Making a page where you can specify a height/width and then then search by it
