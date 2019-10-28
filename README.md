@@ -8,7 +8,7 @@ Search for 4K, 8K, 10K, and 16K images.
 <p>3.0 --- added a page that let's you search by a specified height and width (thank you <a href="https://stackoverflow.com/users/1171702/wazz">Wazz</a> for helping me add this feature)</p>
 
 # Why I made this
-<p>I originally wanted to make this so I (and others) could easily look for 4K, 8K, 10K, and 16K images. It ended up having a bigger use though, as far as I'm aware this is the only way to search google for images with a specific height/width.</p>
+<p>I originally wanted to make this so I (and others) could easily look for 4K, 8K, 10K, and 16K images. It ended up having a bigger use though, as far as I'm aware this is the only way to search google for images with a specific height/width without doing it manually.</p>
 
 # Things I plan on doing with this in the future
 <p>I'm not sure yet</p>
