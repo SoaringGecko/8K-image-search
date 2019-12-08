@@ -15,4 +15,4 @@ Search for 4K, 8K, 10K, and 16K images.
 <p>I'm not sure yet</p>
 
 # Things I need help with
-<p>Nothing at the moment</p>
+<p>Improving the mobile page</p>
