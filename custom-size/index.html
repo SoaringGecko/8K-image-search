@@ -1,6 +1,7 @@
 <title>8K image search</title>
 <meta name="viewport" content="width=device-width, inital-scale=1">
 <link rel="shortcut icon" type="image/png" href="https://SoaringGecko.github.io/8K-image-search/K.png"/>
+<link rel="stylesheet" href="thing.css">
 
 <script> function addSpecs() { document.getElementsByName("tbs")[0].value = "isz:ex,iszw:" + document.getElementById("w").value + ",iszh:" + document.getElementById("h").value; } </script> <form action="//www.google.com/search" method="get"> <input type="hidden" name="tbm" value="isch" /> <input type="hidden" name="tbs" value="" /> width: <input type="text" id="w" placeholder="7680" /><br /> height: <input type="text" id="h" placeholder="4320" /><br /> <input type="text" name="q" size="35" placeholder="zelda" /> <input type="submit" value="Find images" onclick="addSpecs();" /> </form>
 
