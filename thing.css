@@ -22,14 +22,24 @@ input:hover {
 	color: #020202;
 }
 
-*::selection, p::selection {
+*::selection {
 	background: #b5e853; /* WebKit/Blink Browsers */
 	color: #020202;
 }
 
-*::-moz-selection, p::-moz-selection {
+*::-moz-selection {
  background: #b5e853; /* Gecko Browsers */
  color: #020202;
+}
+
+a, input::selection {
+	background: #020202; /* WebKit/Blink Browsers */
+	color: #b5e853;
+}
+
+a, input::-moz-selection {
+ background: #020202; /* Gecko Browsers */
+ color: #b5e853;
 }
 
 fieldset {
