@@ -32,12 +32,12 @@ input:hover {
  color: #020202;
 }
 
-input:hover::selection {
+a:hover::selection, input:hover::selection {
 	background: #020202; /* WebKit/Blink Browsers */
 	color: #b5e853;
 }
 
-input:hover::-moz-selection {
+a:hover::-moz-selection, input:hover::-moz-selection {
  background: #020202; /* Gecko Browsers */
  color: #b5e853;
 }
