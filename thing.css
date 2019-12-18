@@ -11,6 +11,16 @@ button:hover {
 	color: #020202;
 }
 
+input {
+	background-color: #020202 ;
+	color: #b5e853 ;
+}
+
+input:hover {
+	background-color: #b5e853;
+	color: #020202;
+}
+
 *::selection, p::selection {
 	background: #b5e853; /* WebKit/Blink Browsers */
 	color: #020202;
