@@ -4,7 +4,7 @@ Search for 4K, 8K, 10K, and 16K images.
 <p style="font-size:10%">I would like to thank <a href="https://stackoverflow.com/users/947271/lucas">Lucas</a> for helping me with the image search.</p>
 
 # Updates
-<p><b>3.5 —</b>=Optimized for mobile devices</p>
+<p><b>3.5 —</b> Optimized for mobile devices</p>
 <p><b>3.4 —</b> User interface enhanced</p>
 <p><b>3.3 —</b> Visual changes</p>
 <p><b>3.2 —</b> Added placeholders on the custom size page</p>
