@@ -1,16 +1,106 @@
-<title>8K image search</title>
-<meta name="viewport" content="width=device-width, inital-scale=1">
-<link rel="shortcut icon" type="image/png" href="https://SoaringGecko.github.io/8K-image-search/K.png"/>
-<link rel="stylesheet" href="css/thing.css">
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <title>Image Search</title>
+     <meta name="viewport" content="width=device-width, inital-scale=1">
+     <link rel="stylesheet" href="css/style.css">
+     <style>
+      .size{
+          margin-top: 1rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+      .size input{
+          padding:7px 15px 7px 15px;
+          width:9rem;
+          border-radius:15px;
+          border:none;
+          outline:none;
+          background:#366ba877;
+          color:rgba(230,230,230,1);
+          box-shadow: 1px 1px 3px rgba(250,250,250,0.6);
+          text-align: center;
+      }
 
-<script> function addSpecs() { document.getElementsByName("tbs")[0].value = "isz:ex,iszw:" + document.getElementById("w").value + ",iszh:" + document.getElementById("h").value; } </script> <form action="//www.google.com/search" method="get"> <input type="hidden" name="tbm" value="isch" /> <input type="hidden" name="tbs" value="" /> width: <input type="text" id="w" placeholder="7680" /><br /> height: <input type="text" id="h" placeholder="4320" /><br /> <input type="text" name="q" size="35" placeholder="zelda" /> <input type="submit" value="Find images" onclick="addSpecs();" /> </form>
+      .size input:nth-child(1){
+          margin-right:10px;
+      }
+    
+    .submit  #submit{
+        padding:11px 22px 11px  22px;
+      }
+     </style>
+     
+</head>
+<body>
 
- <p>If you want a <b>4K</b> image instead go <a href="https://SoaringGecko.github.io/8K-image-search/4k">here</a></p>
- <p>If you want a <b>8K</b> image instead go <a href="https://SoaringGecko.github.io/8K-image-search/">here</a></p>
- <p>If you want a <b>10K</b> image instead go <a href="https://SoaringGecko.github.io/8K-image-search/10k">here</a></p>
- <p>If you want a <b>16K</b> image instead go <a href="https://SoaringGecko.github.io/8K-image-search/16k">here</a></p>
- <p>If you want to search with your own height and width go <a href="https://soaringgecko.github.io/8K-image-search/custom-size/">here</a></p>
- <p>If you want a <b>mobile</b> wallpaper instead go <a href="https://SoaringGecko.github.io/8K-image-search/mobile">here</a> (In beta)</p>
- <p>Search for a <b><a href="https://SoaringGecko.github.io/8K-image-search/64">64x64</a></b> sized image (really only useful for Minecraft)</p>
+<script>/*function addSpecs()document.getElementsByName("tbs")[0].value = "isz:ex,iszw:" + document.getElementById("w").value + ",iszh:" + document.getElementById("h").value;}*/</script>
 
+<div class="main">
 
+    <div class="container">
+  
+        <div class="logo">
+            <img src="images/witch.png">
+        </div>
+  
+       <div class="search-form">
+
+<form  method="get" autocomplete="off"> 
+
+     <input type="hidden"  value="isch" id="tbm"/>   
+
+     <div class="search"><img src="images/loupe.svg"> 
+          <input id="q" size="35" type="text" placeholder="Search image">
+         </div>
+
+         <div class="size">
+            <input type="text" id="w" placeholder="Width eg. 1920" /><br /> 
+            <input type="text" id="h" placeholder="Height eg. 1280" /><br />
+            </div>
+    
+         <div class="submit" onclick="myFunction();">
+     <input type="button" id="submit" value="Find Images">  
+     </div>
+    
+    </form>
+
+</div>
+
+<div class="serach-for">
+     <p>or search for</p>
+  <div class="links">
+     <a href="4k.html">4K images</a> &nbsp; | &nbsp;
+     <a href="index.html">8K images</a> &nbsp; | &nbsp;
+     <a href="10k.html">10K images</a> &nbsp; | &nbsp;
+     <a href="16k.html">16K images</a> &nbsp; | &nbsp;
+     <a href="64.html">64 &#215; 64 sized images</a> &nbsp; | &nbsp;
+     <a href="mobile_images.html">mobile walpapers</a>
+  </div>
+  <div class="links links-2">
+     <a href="custom_size.html">
+          or search images with your own height and width</a> 
+  </div>
+
+</div>
+
+</div>
+</div>
+         
+ </body>
+ </html>
+ 
+
+ <script>
+
+    function myFunction()
+     {
+     var tbm = "tbm="+ document.getElementById("tbm").value;
+     var tbs = tbm + "&tbs=isz:ex,iszw:" + document.getElementById("w").value+ ",iszh:" + 
+     document.getElementById("h").value + "&q=" + document.getElementById("q").value;
+     var action = "https://www.google.com/search?" + tbs;
+     window.location.href = action;
+     }
+
+</script>
