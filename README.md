@@ -18,7 +18,7 @@ Search for 4K, 8K, 10K, and 16K images.
 <p>I'm not sure yet</p>
 
 # Screenshots 
-<img src="images/pic1.png"><br>
-<img src="images/pic2.png">
+<img src="https://github.com/pnstech/8K-image-search/tree/master/images/pic1.png"><br>
+<img src="https://github.com/pnstech/8K-image-search/tree/master/images/pic2.png">
 
 
