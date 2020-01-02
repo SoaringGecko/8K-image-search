@@ -18,10 +18,10 @@ Search for 4K, 8K, 10K, and 16K images.
 <p>I'm not sure yet</p>
 
 # Screenshots 
-![](/images/pic1.PNG)
+![](/images/pic2.PNG)
 
 
- ![](/images/pic3.PNG)             ![](/images/pic4.PNG)
+ 
 
 
 
