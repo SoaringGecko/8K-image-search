@@ -120,3 +120,44 @@ form .search input{
 .links-2 a{
   font-size:16px;
 }
+
+
+/*
+* Optimization for mobile devices
+*/
+
+@media (max-width:921px)
+{
+
+ form .search input{
+    padding:13px 0px 13px 6px;
+    }
+    .serach-for .links 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+.serach-for .links span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.serach-for .links span:nth-child(3){
+   margin-top:9px;    
+   margin-bottom: 5px;
+}
+
+
+#hide{
+    display: none;
+}
+
+.links-2{
+    line-height:23px;
+}
+
+}
