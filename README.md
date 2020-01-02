@@ -18,7 +18,7 @@ Search for 4K, 8K, 10K, and 16K images.
 <p>I'm not sure yet</p>
 
 # Screenshots 
-![desktop View](gs://techvaganza-1eb46.appspot.com/code-keeda.png)
+![desktop View](https://octodex.github.com/images/yaktocat.png)
 
 
 
