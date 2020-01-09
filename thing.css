@@ -1,4 +1,4 @@
- 
+
 @charset "utf-8";
 /* CSS Document */
 button {
@@ -20,6 +20,10 @@ input {
 input:hover {
 	background-color: #b5e853;
 	color: #020202;
+}
+
+input:focus {
+  outline: none;
 }
 
 *::selection {
