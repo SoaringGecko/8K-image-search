@@ -1,4 +1,4 @@
-# Image-Search
+# Custom-Image-Search
 
 # Features
 1: search for 4k, 8k, 10k, 16k images<br>
