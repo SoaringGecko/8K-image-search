@@ -13,6 +13,9 @@ This search engine solves such kind of problems.
 3: search for mobile wallpapers<br>
 4: search for 64 &#x2715; 64 size images
 
+# Moreover
+This search engine is optimied for both desktops and mobile devices
+
 
 
 
