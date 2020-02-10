@@ -1,7 +1,7 @@
 # 8K-image-search
 
 # Features
-1: search for 4k, 8k, 10k, 16k images
+1: search for 4k, 8k, 10k, 16k images<br>
 2: search for images of custom width and height 
 
 # Purpose
