@@ -4,7 +4,7 @@
 
 # Purpose
 <p>We sometimes face problems to find out images of desired quality, width and height.
-This website solves such kind of problems.
+This image search engine solves such kind of problems.
 </p>
 
 # Features
