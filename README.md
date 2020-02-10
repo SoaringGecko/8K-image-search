@@ -3,7 +3,7 @@
 ![](/images/pic2.PNG)
 
 # Purpose
-<p>We sometimes face problems to find out images of desired quality, width and height.
+<p>We sometimes face problems to find out images of desired quality and dimension.
 This image search engine solves such kind of problems.
 </p>
 
