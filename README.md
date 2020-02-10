@@ -11,7 +11,6 @@ This website solves such kind of problems.
 </p>
 
 
-# Screenshots 
 ![](/images/pic2.PNG)
 
 
