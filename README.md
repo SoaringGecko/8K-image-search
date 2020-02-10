@@ -4,7 +4,7 @@
 
 # Purpose
 <p>We sometimes face problems to find out images of desired quality and dimension.
-This image search engine solves such kind of problems.
+This search engine solves such kind of problems.
 </p>
 
 # Features
