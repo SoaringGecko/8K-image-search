@@ -4,6 +4,8 @@
 button {
 	background-color: #020202 ;
 	color: #b5e853 ;
+  width: 6.515vw;
+  height: 1.611vw;
 }
 
 button:hover {
@@ -15,6 +17,7 @@ input {
 	background-color: #020202 ;
 	color: #b5e853 ;
 	border-radius: 0.878vw;
+  font-size: 13.243.997vw;
 }
 
 input:hover {
@@ -34,6 +37,11 @@ input:focus {
 .searchbar {
 	width: 17.350vw;
 	height: 1.611vw;
+}
+
+.searchbutton {
+	height: 1.464vw;
+	width: 6.515vw;
 }
 
 *::selection {
