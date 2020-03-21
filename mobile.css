@@ -46,6 +46,7 @@ fieldset {
 -webkit-border-radius: 0.5em;
 -moz-border-radius: 0.5em;
 border-radius: 0.5em;
+width: min-content;
 }
 
 .TabbedPanelsTabHover::selection, a.MenuBarItemSubmenuHover::selection, a.MenuBarItemHover::selection, button:hover::selection {
