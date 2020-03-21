@@ -31,19 +31,19 @@ input:focus {
 .wh {
 	width: 10.761vw;
 	height: 1.611vw;
-	font-size: 13.243.997vw;
+	font-size: 0.952vw;
 }
 
 .searchbar {
 	width: 17.350vw;
 	height: 1.611vw;
-	font-size: 13.243.997vw;
+	font-size: 0.952vw;
 }
 
 .searchbutton {
 	height: 1.464vw;
 	width: 6.515vw;
-	font-size: 13.243.997vw;
+	font-size: 0.952vw;
 }
 
 *::selection {
