@@ -1,7 +1,7 @@
 <title>Mobile wallpaper search</title>
 <meta name="viewport" content="width=device-width, inital-scale=1">
 <link rel="shortcut icon" type="image/png" href="https://SoaringGecko.github.io/8K-image-search/K.png"/>
-<link rel="stylesheet" href="../thing.css">
+<link rel="stylesheet" href="../pc.css">
 <!-- This is a search form that will take us to
      https://www.google.com/search?tbm=isch&tbs=isz:ex,iszw:7680,iszh:4320&q=example
      when we search for 𝚎𝚡𝚊𝚖𝚙𝚕𝚎. This search will show us only images, and
@@ -56,3 +56,18 @@
 <p><big><b>Please notice it would be better if you went to <a href="https://duckduckgo.com/">DuckDuckGo.com</a> and select "All Layouts > tall" and also select "All sizes > Wallpaper"</b></big></p>
 <fieldset style="width:15%"><legend>Redirects to the other pages</legend><p><a href="http://4k.rf.gd">4k.rf.gd</a></br><a href="http://8k.rf.gd">8k.rf.gd</a></br><a href="http://10k.rf.gd">10k.rf.gd</a>
  </br><a href="http://16k.rf.gd">16k.rf.gd</a></p></fieldset>
+
+ <script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+// get all links in the head (including CSS)
+var allLinks = document.head.getElementsByTagName('link');
+// find and replace the element
+for (var i = 0; i < allLinks.length; i++) {
+    if ( allLinks[i].href = "../pc.css") {
+        allLinks[i].href = "../mobile.css";
+    }
+}
+}
+//-->
+</script>
