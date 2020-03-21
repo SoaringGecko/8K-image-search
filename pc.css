@@ -26,6 +26,16 @@ input:focus {
   outline: none;
 }
 
+.wh {
+	width: 10.761vw;
+	height: 1.611vw;
+}
+
+.searchbar {
+	width: 17.350vw;
+	height: 1.611vw;
+}
+
 *::selection {
 	background: #b5e853; /* WebKit/Blink Browsers */
 	color: #020202;
