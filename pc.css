@@ -17,7 +17,6 @@ input {
 	background-color: #020202 ;
 	color: #b5e853 ;
 	border-radius: 0.878vw;
-  font-size: 13.243.997vw;
 }
 
 input:hover {
@@ -32,16 +31,19 @@ input:focus {
 .wh {
 	width: 10.761vw;
 	height: 1.611vw;
+	font-size: 13.243.997vw;
 }
 
 .searchbar {
 	width: 17.350vw;
 	height: 1.611vw;
+	font-size: 13.243.997vw;
 }
 
 .searchbutton {
 	height: 1.464vw;
 	width: 6.515vw;
+	font-size: 13.243.997vw;
 }
 
 *::selection {
