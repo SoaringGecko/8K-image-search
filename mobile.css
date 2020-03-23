@@ -15,6 +15,7 @@ input {
  background-color: #020202 ;
  color: #b5e853 ;
  border-radius: 0.75em;
+ text-indent: 0.625em;
 }
 
 input:hover {
