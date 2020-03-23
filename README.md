@@ -16,3 +16,9 @@ Search for 4K, 8K, 10K, and 16K images.
 
 # Things I need help with
 <p>Improving the mobile page</p>
+
+# Redirects
+<p><a href="http://4k.rf.gd">4k.rf.gd</a></p>
+<p><a href="http://8k.rf.gd">8k.rf.gd</a></p>
+<p><a href="http://10k.rf.gd">10k.rf.gd</a></p>
+<p><a href="http://16k.rf.gd">16k.rf.gd</a></p>
