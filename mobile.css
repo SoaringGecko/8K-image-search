@@ -263,8 +263,36 @@ dt {
  font-weight: bold
 }
 
-ul li {
- list-style-image: url("../images/bullet.png")
+ul {
+    position: fixed;
+  	float: right;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+    display: none;
+}
+
+button.dark {
+    cursor: pointer;
+    border-radius: 50%;
+		background-color: black;
+    display: none;
+}
+
+button.dark:hover {
+	background-color: grey;
+}
+
+button.light {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+		display: none;
+}
+
+button.light:hover {
+	background-color: lightgrey;
 }
 
 blockquote {

@@ -18,6 +18,7 @@ input {
 	color: #b5e853 ;
 	border-radius: 0.878vw;
 	text-indent: 0.521vw;
+	filter: invert(1);
 }
 
 input:hover {
@@ -172,8 +173,8 @@ width: min-content;
 body {
 	margin: 0;
 	padding: 0;
-	background: #151515 url("../images/bkg.png") 0 0;
-	color: #eaeaea;
+	background-color: white;
+	color: black;
 	font-size: 1.171vw;
 	line-height: 1.5;
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
@@ -287,19 +288,20 @@ dt {
 }
 
 ul {
-	position: fixed;
-	float: right;
-	right: 1.563vw;
-	border: none;
-	text-align: center;
+    position: fixed;
+		float: right;
+    right: 1.563vw;
+    border: none;
+    text-align: center;
 }
 
 button.dark {
-	cursor: pointer;
-	border-radius: 50%;
-	width: auto;
-	height: auto;
-	background-color: white;
+		cursor: pointer;
+		border-radius: 50%;
+		width: auto;
+		height: auto;
+		background-color: white;
+		display: none;
 }
 
 button.dark:hover {
@@ -307,12 +309,11 @@ button.dark:hover {
 }
 
 button.light {
-	cursor: pointer;
-	border-radius: 50%;
-	width: auto;
-	height: auto;
-	background-color: black;
-	display: none;
+    cursor: pointer;
+    border-radius: 50%;
+		width: auto;
+		height: auto;
+		background-color: black;
 }
 
 button.light:hover {
@@ -403,7 +404,7 @@ hr {
 }
 
 a {
-	color: #63c0f5;
+	color: #4a17ac;
 	text-shadow: 0 0 0.366vw rgba(104,182,255,0.5)
 }
 

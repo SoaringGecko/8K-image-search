@@ -2,6 +2,14 @@
 <meta name="viewport" content="width=device-width, inital-scale=1">
 <link rel="shortcut icon" type="image/png" href="https://SoaringGecko.github.io/8K-image-search/8K.png"/>
 <link rel="stylesheet" href="../pc.css">
+
+<body onload="MobileTest()">
+
+  <ul class="DarkLightButtons">
+  <button class="dark" onclick='document.cookie = "username=dark";checkCookie()'><img src="../sun-moon.png"></button>
+  <button class="light" onclick='document.cookie = "username=light";checkCookie()'><img src="../sun-moon.png"></button>
+  </ul>
+
 <!-- This is a search form that will take us to
      https://www.google.com/search?tbm=isch&tbs=isz:ex,iszw:7680,iszh:4320&q=example
      when we search for 𝚎𝚡𝚊𝚖𝚙𝚕𝚎. This search will show us only images, and
@@ -56,17 +64,81 @@
 
 <p><fieldset><legend>Redirects</legend><a href="http://4k.rf.gd">4k.rf.gd</a><br/><a href="http://8k.rf.gd">8k.rf.gd</a><br/><a href="http://10k.rf.gd">10k.rf.gd</a><br/><a href="http://16k.rf.gd">16k.rf.gd</a><br/><legend>Homepage</legend><a href="http://4k.rf.gd/a">4k.rf.gd/*</a><br/><a href="http://8k.rf.gd/a">8k.rf.gd/*</a><br/><a href="http://10k.rf.gd/a">10k.rf.gd/*</a><br/><a href="http://16k.rf.gd/a">16k.rf.gd/*</a></fieldset></p>
 
- <script type="text/javascript">
+</body>
+
+<script type="text/javascript">
 <!--
 if (screen.width <= 699) {
 // get all links in the head (including CSS)
 var allLinks = document.head.getElementsByTagName('link');
 // find and replace the element
 for (var i = 0; i < allLinks.length; i++) {
-    if ( allLinks[i].href = "../pc.css") {
-        allLinks[i].href = "../mobile.css";
-    }
+   if ( allLinks[i].href = "../pc.css") {
+       allLinks[i].href = "../mobile.css";
+   }
 }
 }
 //-->
+
+function MobileTest() {
+ if (screen.width <= 699) {
+ // get all links in the head (including CSS)
+ var allLinks = document.head.getElementsByTagName('link');
+ // find and replace the element
+ for (var i = 0; i < allLinks.length; i++) {
+     if ( allLinks[i].href = "../pc.css") {
+         allLinks[i].href = "../mobile.css";
+     }
+ }
+} else {
+ checkCookie();
+}
+}
+
+</script>
+
+<script type="text/javascript">
+ function setCookie(cname,cvalue,exdays) {
+   var d = new Date();
+   d.setTime(d.getTime() + (exdays*24*60*60*1000));
+   var expires = "expires=" + d.toGMTString();
+   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+ }
+
+ function getCookie(cname) {
+   var name = cname + "=";
+   var decodedCookie = decodeURIComponent(document.cookie);
+   var ca = decodedCookie.split(';');
+   for(var i = 0; i < ca.length; i++) {
+     var c = ca[i];
+     while (c.charAt(0) == ' ') {
+       c = c.substring(1);
+     }
+     if (c.indexOf(name) == 0) {
+       return c.substring(name.length, c.length);
+     }
+   }
+   return "";
+ }
+
+ function checkCookie() {
+   var user=getCookie("username");
+   if (user == "dark") {
+     var allLinks = document.head.getElementsByTagName('link');
+ // find and replace the element
+ for (var i = 0; i < allLinks.length; i++) {
+     if ( allLinks[i].href = "../pc.css") {
+         allLinks[i].href = "../pc-light.css";
+         }
+     }
+   } else {
+    var allLinks = document.head.getElementsByTagName('link');
+ // find and replace the element
+ for (var i = 0; i < allLinks.length; i++) {
+     if ( allLinks[i].href = "../pc.css") {
+         allLinks[i].href = "../pc.css";
+         }
+     }
+   }
+ }
 </script>
