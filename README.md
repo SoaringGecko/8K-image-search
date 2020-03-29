@@ -4,7 +4,7 @@ Search for 4K, 8K, 10K, and 16K images.
 <p style="font-size:10%">I would like to thank <a href="https://stackoverflow.com/users/947271/lucas">Lucas</a> for helping me with the image search and <a href="https://stackoverflow.com/users/1171702/wazz">Wazz</a> for the helping with the custom size page.</p>
 
 # Updates
-<p><b>3.8 —</b> Adds a light mode option (In beta and a little buggy)</p>
+<p><b>3.8 —</b> Adds a light mode option (In beta and a little buggy, no mobile support)</p>
 <p><b>3.7.2 —</b> Adds redirects to the Homepage</p>
 <p><b>3.7.1 —</b> Adds redirects to README.md</p>
 <p><b>3.7 —</b> Adds an indent to the search bars so the first character doesn't clip into the box</p>
