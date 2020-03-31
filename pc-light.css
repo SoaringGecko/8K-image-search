@@ -48,13 +48,23 @@ input:focus {
 }
 
 *::selection {
+	background: #4a17ac; /* WebKit/Blink Browsers */
+	color: white;
+}
+
+input::selection {
+	background: #b5e853; /* WebKit/Blink Browsers */
+	color: #020202;
+}
+
+input::-moz-selection {
 	background: #b5e853; /* WebKit/Blink Browsers */
 	color: #020202;
 }
 
 *::-moz-selection {
- background: #b5e853; /* Gecko Browsers */
- color: #020202;
+	background: #4a17ac; /* WebKit/Blink Browsers */
+	color: white;
 }
 
 input:hover::selection {
