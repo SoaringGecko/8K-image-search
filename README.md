@@ -4,6 +4,7 @@ Search for 4K, 8K, 10K, and 16K images.
 <p style="font-size:10%">I would like to thank <a href="https://stackoverflow.com/users/947271/lucas">Lucas</a> for helping me with the image search and <a href="https://stackoverflow.com/users/1171702/wazz">Wazz</a> for the helping with the custom size page.</p>
 
 # Updates
+<p><b>3.8.3 —</b> Fixes a visual bug intruduced in V3.8.2 with the light mode button</p>
 <p><b>3.8.2 —</b> It will now stay in light mode after closing your browser</p>
 <p><b>3.8.1 —</b> Changes the light mode text selection</p>
 <p><b>3.8 —</b> Adds a light mode option (In beta and a little buggy, no mobile support)</p>
