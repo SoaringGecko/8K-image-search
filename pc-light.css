@@ -206,7 +206,6 @@ section {
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0 0 1.464vw
-	filter: invert(100);
 }
 
 li {
@@ -227,7 +226,7 @@ header h1 {
 	margin: 0 0 0 -2.928vw;
 	font-weight: bold;
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-	color: #b5e853;
+	color: #4a17ac;
 	text-shadow: 0 0.073vw 0.073vw rgba(0,0,0,0.1),0 0 0.366vw rgba(181,232,83,0.1),0 0 0.732vw rgba(181,232,83,0.1);
 	letter-spacing: -0.073vw;
 	-webkit-font-smoothing: antialiased
@@ -262,7 +261,7 @@ section img {
 h1,h2,h3,h4,h5,h6 {
 	font-weight: normal;
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-	color: #b5e853;
+	color: #4a17ac;
 	letter-spacing: -0.03em;
 	text-shadow: 0 0.073vw 0.073vw rgba(0,0,0,0.1),0 0 0.366vw rgba(181,232,83,0.1),0 0 0.732vw rgba(181,232,83,0.1)
 }
