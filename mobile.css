@@ -11,16 +11,31 @@ button:hover {
  color: #020202;
 }
 
+p {
+  width: -webkit-fill-available;
+}
+
+form {
+  width: 100%;
+}
+
 input {
  background-color: #020202 ;
  color: #b5e853 ;
  border-radius: 0.75em;
- text-indent: 0.625em;
 }
 
 input:hover {
  background-color: #b5e853;
  color: #020202;
+}
+
+input.wh, input.searchbar {
+	text-indent: 0.625em;
+}
+
+input.searchbar {
+  width: 70%
 }
 
 *::selection {
@@ -168,7 +183,7 @@ section {
 }
 
 h1,h2,h3,h4,h5,h6 {
- margin: 0 0 1.25em
+ margin: 0 0 0.25em
 }
 
 li {

@@ -17,7 +17,6 @@ input {
 	background-color: #020202 ;
 	color: #b5e853 ;
 	border-radius: 0.878vw;
-	text-indent: 0.521vw;
 	filter: invert(1);
 }
 
@@ -28,6 +27,10 @@ input:hover {
 
 input:focus {
   outline: none;
+}
+
+input.wh, input.searchbar {
+	text-indent: 0.421vw;
 }
 
 .wh {
@@ -43,7 +46,7 @@ input:focus {
 }
 
 .searchbutton {
-	height: 1.464vw;
+	height: 1.611vw;
 	font-size: 0.952vw;
 }
 
