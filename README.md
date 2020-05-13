@@ -20,7 +20,6 @@ Search for 4K, 8K, 10K, and 16K images.
 
 # Things I need help with
 <p>Improving the mobile page</p>
-<p>The cookies used for light mode</p>
 
 # Redirects
 <p><a href="http://4k.rf.gd">4k.rf.gd</a></p>
