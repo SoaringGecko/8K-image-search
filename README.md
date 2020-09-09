@@ -14,7 +14,7 @@ This search engine solves such kind of problems.
 4: search for 64 &#x2715; 64 size images
 
 # Moreover
-This search engine is optimized for both desktops and mobile devices
+This search engine is optimized for both desktop and mobile devices
 
 
 
